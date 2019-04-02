@@ -14,7 +14,6 @@ mv python_project_planer/* python_project_planer/.[!.]* .
 rm -rf python_project_planer/
 
 mv py_project $TOOL
-mv py_project.toml $TOOL.toml
 
 echo "#" $TOOL > README.md
 
