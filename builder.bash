@@ -31,7 +31,7 @@ git add .
 git commit -m "first commit"
 
 #add remote location 
-git remote add $(echo $path)
+git remote add origin $path
 
 #create a master branch by pushing file structure as a start
 git push 
