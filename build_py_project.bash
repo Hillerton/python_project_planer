@@ -23,21 +23,17 @@ pip3 install -r $TOOL/requirements.txt
 #initialise empty git
 git init
 
+#install the wanted hooks
 pre-commit install 
-
-#add remote location 
-git remote add $path
 
 #add file structure to the new git 
 git add .
 git commit -m "first commit"
+
+#add remote location 
+git remote add $path
+
+#create a master branch by pushing file structure as a start
 git push 
 
-#add the pre-commit hooks to the git
-pre-commit install
-
-#add these hooks to repository 
-git add . 
-git commit -m "added pre-commit hooks"
-git push
 
