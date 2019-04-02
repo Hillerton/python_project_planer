@@ -2,21 +2,8 @@
 Repository created to quickly set up a new python project.
 
 To set up the project clone this repo to wanted new repo.
-then: 
-- mv python_project_planer/* python_project_planer/.[!.]* . 
-- rm -rf python_project_planer .git
-- mv py_project project_name 
-- mv py_project.toml project_name.toml
-- pip3 install -r project_name/requirements.txt 
-
-make README.md either by emacs and writing or by echo "project_name" > README.md
-
-The files should now all be in place. Time to add it to git. 
-- git init 
-- pre-commit install
-- git add .
-- git commit -m "starting a new project" 
-- git remote add repository/path.git
+Set up a git repo you want to store your new project in. 
+Then move the builder.bash script out of the clone and execute it. 
 
 All should now be ready to use and some basic documentation and file structure should be in place to build on. 
 
