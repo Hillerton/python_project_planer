@@ -9,8 +9,8 @@ echo "Here we go..."
 
 
 #move all the needed files in to the current dir and remove old git files
-rm -rf python_project_planer/.git/
-mv python_project_planer/* .
+rm -rf python_project_planer/.git
+mv python_project_planer/* python_project_planer/.[!.]* .
 rm -rf python_project_planer/
 
 mv py_project $TOOL
